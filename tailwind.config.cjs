@@ -1,9 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./src/**/*.{html,js}'],
+  content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
 
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        darkGreen: '#1B8659',
+        lightGreen: '#35BC83',
+      },
+    },
   },
   plugins: [],
 };

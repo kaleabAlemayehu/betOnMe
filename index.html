@@ -5,9 +5,20 @@
     <link rel="icon" type="image/svg+xml" href="#" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BetOnMe</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./src/style.css" />
   </head>
-  <body>
-    <script type="module" src="/main.js"></script>
+  <body class="text-white">
+    <nav class="h-12 w-screen bg-darkGreen">
+      <ul class="flex flex-row justify-around">
+        <li class="p-3 rounded-lg">
+          <a href="#yesterday">Yesterday</a>
+        </li>
+        <li class="p-3 px-8 rounded-lg selected"><a href="#today"></a>Today</li>
+        <li class="p-3 rounded-lg">
+          <a href="#tommorow">Tommorow</a>
+        </li>
+      </ul>
+    </nav>
+    <script type="module" src="/src/main.js"></script>
   </body>
 </html>
