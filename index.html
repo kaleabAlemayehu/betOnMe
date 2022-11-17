@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="./src/style.css" />
   </head>
   <body class="text-white">
-    <nav class="h-12 w-screen bg-darkGreen">
-      <ul class="flex flex-row justify-around">
+    <nav class="h-12 w-screen bg-darkGreen fixed top-0">
+      <ul class="flex flex-row justify-around list-none">
         <li class="p-3 rounded-lg">
           <a href="#yesterday">Yesterday</a>
         </li>
@@ -19,6 +19,43 @@
         </li>
       </ul>
     </nav>
+    <footer
+      class="w-screen h-12 fixed bottom-0 border-slate-400 border-t-2 backdrop-blur-lg bg-darkGreen"
+    >
+      <ul class="list-none flex flex-row justify-around">
+        <li class="w-16 h-12 selected flex justify-center items-center">
+          <img
+            src="/src/assets/premierLeague.svg"
+            alt="laliga"
+            class="w-10 h-10 inline-block"
+          />
+        </li>
+        <li class="w-16 h-12 flex justify-center items-center">
+          <img src="/src/assets/laliga.svg" alt="laliga" class="inline-block" />
+        </li>
+        <li class="w-16 h-12 flex justify-center items-center">
+          <img
+            src="/src/assets/bundesliga.png"
+            alt="laliga"
+            class="inline-block w-12 h-12"
+          />
+        </li>
+        <li class="w-16 h-12 flex justify-center items-center">
+          <img
+            src="/src/assets/Ligue1.png"
+            alt="laliga"
+            class="inline-block w-10 h-10"
+          />
+        </li>
+        <li class="w-16 h-12 flex justify-center items-center">
+          <img
+            src="/src/assets/SerieA.svg"
+            alt="laliga"
+            class="inline-block w-10 h-10"
+          />
+        </li>
+      </ul>
+    </footer>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
